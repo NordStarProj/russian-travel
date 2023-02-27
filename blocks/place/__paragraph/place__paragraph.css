@@ -1,0 +1,15 @@
+.place__paragraph {
+    color: white;
+    font-size: 18px;
+    line-height: 29.34px;
+    margin: 0;
+    margin-bottom: 27px;
+}
+
+@media (max-width: 768px) {
+    .place__paragraph {
+        margin-bottom: 25px;
+        font-size: 16px;
+        line-height: 26.08px;
+    }
+}
