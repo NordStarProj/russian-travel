@@ -3,12 +3,12 @@
   color: white;
   font-weight: 900;
   font-size: 96px;
-  line-height: 100px;
+  line-height: 104%;
   max-width: 720px;
   margin: 0 auto;
 }
 
-@media (min-width: 490px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .lead__title {
     max-width: 100%;
     font-size: 64px;

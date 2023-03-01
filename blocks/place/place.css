@@ -3,7 +3,7 @@
   margin-bottom: 80px;
   display: grid;
   grid-template-columns: minmax(440px, 460px) minmax(456px, 484px);
-  gap: 40px 40px;
+  gap: 48px 40px;
 }
 
 .place:last-child {
@@ -12,7 +12,8 @@
 
 @media (max-width: 1024px) {
   .place {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 48px 32px;
   }
 }
 

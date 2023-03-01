@@ -7,8 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Путешествие по России</title>
   <link rel="stylesheet" href="./pages/index.css">
-  <link rel="preconnect" href="https://rsms.me/">
-  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
 </head>
 
 <body class="page">
@@ -16,7 +14,7 @@
   <header class="header">
     <img src="./images/logo.svg" alt="логотип" class="header__logo">
     <ul class="header__lang-links">
-      <li><a href="#" class="header__lang-link header__lang-link_state_active">Ru</a></li>
+      <li><a href="#" class="header__lang-link header__lang-link_active">Ru</a></li>
       <li><a href="#" class="header__lang-link">En</a></li>
     </ul>
   </header>
@@ -38,11 +36,11 @@
         смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч
         километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
       <ul class="intro__list">
-        <li>Часовых поясов 11</li>
-        <li>Объектов природного наследия ЮНЕСКО 12</li>
-        <li>Объектов культурного наследия ЮНЕСКО 16</li>
-        <li>Природных заповедников 105</li>
-        <li>Аэропортов 241</li>
+        <li><span class="intro__bold">Часовых поясов</span> 11</li>
+        <li><span class="intro__bold">Объектов природного наследия ЮНЕСКО</span> 12</li>
+        <li><span class="intro__bold">Объектов культурного наследия ЮНЕСКО</span> 16</li>
+        <li><span class="intro__bold">Природных заповедников</span> 105</li>
+        <li><span class="intro__bold">Аэропортов</span> 241</li>
       </ul>
     </section>
 
@@ -63,9 +61,9 @@
 
     <section class="places">
       <div class="place">
-        <h3 class="place__title">Куршская коса</h3>
+        <h2 class="place__title">Куршская коса</h2>
         <div class="place__website">
-          <h4 class="place__url-heading">url</h4>
+          <h3 class="place__url-heading">url</h3>
           <a href="http://park-kosa.ru" class="place__link">park-kosa.ru</a>
         </div>
         <img src="./images/place-kosa.jpg" alt="куршская коса" class="place__image">
@@ -80,17 +78,16 @@
         </div>
       </div>
       <div class="place">
-        <h3 class="place__title">Кольский</h3>
+        <h2 class="place__title">Кольский</h2>
         <div class="place__website">
-          <h4 class="place__url-heading">url</h4>
+          <h3 class="place__url-heading">url</h3>
           <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link">National
             Geographic</a>
         </div>
         <img src="./images/place-kolsky.jpg" alt="кольский" class="place__image">
         <div class="place__text">
           <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на
-            юг —
-            тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
+            юг — тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
           <p class="place__paragraph">Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля в
             Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об уроках географии.
             Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно
@@ -99,10 +96,10 @@
         </div>
       </div>
       <div class="place">
-        <h3 class="place__title">Алтай</h3>
+        <h2 class="place__title">Алтай</h2>
         <div class="place__website">
-          <h4 class="place__url-heading">url</h4>
-          <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__link">Facebook</a>
+          <h3 class="place__url-heading">url</h3>
+          <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" class="place__link">YouTube</a>
         </div>
         <img src="./images/place-altai.jpg" alt="алтай" class="place__image">
         <div class="place__text">
@@ -116,9 +113,9 @@
         </div>
       </div>
       <div class="place">
-        <h3 class="place__title">Зимний Байкал</h3>
+        <h2 class="place__title">Зимний Байкал</h2>
         <div class="place__website">
-          <h4 class="place__url-heading">url</h4>
+          <h3 class="place__url-heading">url</h3>
           <a href="https://vk.com/baikalmile" class="place__link">https://vk.com/baikalmile</a>
         </div>
         <img src="./images/place-winter-baikal.jpg" alt="зимний байкал" class="place__image">
@@ -133,9 +130,9 @@
         </div>
       </div>
       <div class="place">
-        <h3 class="place__title">Карелия</h3>
+        <h2 class="place__title">Карелия</h2>
         <div class="place__website">
-          <h4 class="place__url-heading">url</h4>
+          <h3 class="place__url-heading">url</h3>
           <a href="http://vodlozero.ru" class="place__link">htpps://vodlozero.ru</a>
         </div>
         <img src="./images/place-karelia.jpg" alt="карелия" class="place__image">
@@ -154,7 +151,7 @@
       <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__overlay">
         <div class="cover__text">
           <h2 class="cover__title">До Байкала «на собаках»</h2>
-          <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала
+          <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала
             на
             электричках.</p>
         </div>
@@ -172,7 +169,7 @@
         <li class="footer__item"><a href="https://travel.yandex.ru" class="footer__link">Путешествия</a></li>
       </ul>
     </nav>
-    <p class="footer__copyright">&copy; 2023. Зинкевич Илья</p>
+    <p class="footer__copyright">&copy; 2023. Зинкевич Илья </p>
   </footer>
 
 </body>

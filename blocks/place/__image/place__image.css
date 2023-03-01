@@ -2,32 +2,9 @@
     max-width: 100%;
 }
 
-@media (min-width: 890px) and (max-width: 1024px) {
+@media (min-width: 891px) and (max-width: 1024px) {
     .place__image {
         max-width: 440px;
     }
 }
 
-@media (max-width: 890px) {
-    .place__image {
-        max-width: 100%;
-    }
-}
-
-@media (min-width: 720px) and (max-width: 768px) {
-    .place__image {
-        max-width: 340px;
-    }
-}
-
-@media (max-width: 768px) {
-    .place__image {
-        max-width: 100%;
-    }
-}
-
-@media (max-width: 430px) {
-    .place__image {
-        max-width: 320px;
-    }
-}

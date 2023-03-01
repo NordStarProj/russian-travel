@@ -1,13 +1,6 @@
 .place__website {
     align-self: flex-end;
     margin: 0;
-    margin-bottom: 8px;
-}
-
-@media (min-width: 430px) and (max-width: 768px) {
-    .place__website {
-        margin: 0;
-    }
 }
 
 @media (max-width: 430px) {
