@@ -22,5 +22,7 @@
   .footer {
     max-width: calc(100% - 32px);
     flex-direction: column;
+    margin: 64px auto 24px;
   }
+
 }
